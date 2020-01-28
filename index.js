@@ -72,7 +72,7 @@ while (i < block.fivepages.data.length) {
   document.getElementById("display").innerHTML += `
 <div class="carousel-item ${active}">
       <div class="view">
-        <img class="d-block" src="http://iwallpapers2.free.fr/images/Photographie/Black_Collection/Fond_texture_Noir_1920x1080.jpg"
+        <img class="d-block img" src="http://iwallpapers2.free.fr/images/Photographie/Black_Collection/Fond_texture_Noir_1920x1080.jpg"
           alt='${i}'>
         <div class="mask rgba-black-light"></div>
       </div>
