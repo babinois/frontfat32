@@ -1,26 +1,11 @@
-body {
-  background-image: url("fond.png");
-  background-repeat: no-repeat;
-  background-size: 1000px 500px;
-  font-family: "Prompt", sans-serif;
-}
-p {
-  color: aliceblue;
-}
-h1 {
-  color: aliceblue;
-  size: auto;
-}
-h3 {
-  color: aliceblue;
-}
-body {
-  color: aliceblue;
-}
-.bloc {
-  height: 300px;
-  width: 300px;
-  box-shadow: 6px 6px 6px black;
-  margin-top: 80px;
-  margin-left: 250px;
+.carousel-caption2 {
+  position: absolute;
+  right: 15%;
+  top: 220px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
 }
