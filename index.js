@@ -94,3 +94,7 @@ function displayText(id) {
     j++;
   }
 }
+
+function changePage() {
+  console.log(document.getElementById("newPage").value);
+}
