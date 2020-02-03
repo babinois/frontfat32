@@ -47,7 +47,7 @@ function constructPage() {
   i -= 1;
   var blockchain = httpGet("http://localhost:5001/blockchain");
   if (blockchain) {
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < 5; j++) {
       let active = "";
       let classActive = "";
       if (j === 0) {
